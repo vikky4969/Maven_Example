@@ -1,113 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-02T14:26:20Z" name="Suite" finished-at="2022-09-02T14:27:17Z" duration-ms="57529">
+  <suite started-at="2022-09-02T14:35:45Z" name="Default suite" finished-at="2022-09-02T14:35:45Z" duration-ms="45">
     <groups>
     </groups>
-    <test started-at="2022-09-02T14:26:20Z" name="Test1" finished-at="2022-09-02T14:26:51Z" duration-ms="31061">
-      <class name="testNG.Flipkartlogin">
-        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:testNG.Flipkartlogin@4a8355dd]" started-at="2022-09-02T19:56:20Z" name="beforeclass" finished-at="2022-09-02T19:56:30Z" duration-ms="9924" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-09-02T14:35:45Z" name="Default test" finished-at="2022-09-02T14:35:45Z" duration-ms="45">
+      <class name="testNG.TestNgProgram">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testNG.TestNgProgram@24569dba]" started-at="2022-09-02T20:05:45Z" name="beforeclass" finished-at="2022-09-02T20:05:45Z" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:testNG.Flipkartlogin@4a8355dd]" started-at="2022-09-02T19:56:30Z" name="beforemethod" finished-at="2022-09-02T19:56:35Z" duration-ms="5724" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.flipkart.com/]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="abc()[pri:0, instance:testNG.TestNgProgram@24569dba]" started-at="2022-09-02T20:05:45Z" name="abc" finished-at="2022-09-02T20:05:45Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testNG.TestNgProgram@24569dba]" started-at="2022-09-02T20:05:45Z" name="beforemethod" finished-at="2022-09-02T20:05:45Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:testNG.Flipkartlogin@4a8355dd]" started-at="2022-09-02T19:56:35Z" name="login1" data-provider="data" finished-at="2022-09-02T19:56:49Z" duration-ms="13883" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[8667550570]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Vikky24740]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testNG.Flipkartlogin@4a8355dd]" started-at="2022-09-02T19:56:49Z" name="aftermethod" finished-at="2022-09-02T19:56:49Z" duration-ms="67" status="PASS">
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testNG.TestNgProgram@24569dba]" started-at="2022-09-02T20:05:45Z" name="aftermethod" finished-at="2022-09-02T20:05:45Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testNG.Flipkartlogin@4a8355dd]" started-at="2022-09-02T19:56:49Z" name="afterclass" finished-at="2022-09-02T19:56:51Z" duration-ms="1444" status="PASS">
+        <test-method signature="def()[pri:0, instance:testNG.TestNgProgram@24569dba]" started-at="2022-09-02T20:05:45Z" name="def" finished-at="2022-09-02T20:05:45Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterclass -->
-      </class> <!-- testNG.Flipkartlogin -->
-    </test> <!-- Test1 -->
-    <test started-at="2022-09-02T14:26:51Z" name="Test2" finished-at="2022-09-02T14:27:17Z" duration-ms="26272">
-      <class name="testNG.HotelAdactin">
-        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:testNG.HotelAdactin@f1da57d]" started-at="2022-09-02T19:56:51Z" name="beforeclass" finished-at="2022-09-02T19:56:53Z" duration-ms="1982" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:testNG.HotelAdactin@f1da57d]" started-at="2022-09-02T19:56:53Z" name="beforemethod" finished-at="2022-09-02T19:57:00Z" duration-ms="7007" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://adactinhotelapp.com/index.php]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- def -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testNG.TestNgProgram@24569dba]" started-at="2022-09-02T20:05:45Z" name="beforemethod" finished-at="2022-09-02T20:05:45Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:testNG.HotelAdactin@f1da57d]" started-at="2022-09-02T19:57:00Z" name="login" data-provider="data" finished-at="2022-09-02T19:57:04Z" duration-ms="4359" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Vignesh9694]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[WW40NP]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testNG.HotelAdactin@f1da57d]" started-at="2022-09-02T19:57:04Z" name="aftermethod" finished-at="2022-09-02T19:57:06Z" duration-ms="1880" status="PASS">
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testNG.TestNgProgram@24569dba]" started-at="2022-09-02T20:05:45Z" name="aftermethod" finished-at="2022-09-02T20:05:45Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testNG.HotelAdactin@f1da57d]" started-at="2022-09-02T19:57:06Z" name="afterclass" finished-at="2022-09-02T19:57:09Z" duration-ms="2290" status="PASS">
+        <test-method signature="xyz()[pri:0, instance:testNG.TestNgProgram@24569dba]" started-at="2022-09-02T20:05:45Z" name="xyz" finished-at="2022-09-02T20:05:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testNG.TestNgProgram@24569dba]" started-at="2022-09-02T20:05:45Z" name="beforemethod" finished-at="2022-09-02T20:05:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testNG.TestNgProgram@24569dba]" started-at="2022-09-02T20:05:45Z" name="aftermethod" finished-at="2022-09-02T20:05:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testNG.TestNgProgram@24569dba]" started-at="2022-09-02T20:05:45Z" name="afterclass" finished-at="2022-09-02T20:05:45Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="aftertest()[pri:0, instance:testNG.HotelAdactin@f1da57d]" started-at="2022-09-02T19:57:09Z" name="aftertest" finished-at="2022-09-02T19:57:17Z" duration-ms="8748" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftertest -->
-      </class> <!-- testNG.HotelAdactin -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+      </class> <!-- testNG.TestNgProgram -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

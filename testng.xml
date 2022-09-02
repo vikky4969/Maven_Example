@@ -15,4 +15,10 @@
       <class name="testNG.HotelAdactin"> </class>
    </classes>
   </test>
+       <test thread-count="5" name="Test3">
+ <parameter name="browser" value="chrome"></parameter>
+     <classes>
+      <class name="testNG.TestNgProgram"> </class>
+   </classes>
+  </test>
  </suite> <!-- Suite -->
