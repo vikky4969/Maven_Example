@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests">
-<listeners>
-<listener class-name="testNG.RerunAll"></listener>
-</listeners>
- <test thread-count="5" name="Test1">
- <parameter name="browser" value="firefox"></parameter>
- <parameter name="url" value="http://adactinhotelapp.com/index.php"></parameter>
-     <classes>
-<class name="testNG.HotelAdactin">   </class>
-   </classes>
-  </test>
+<suite name="Suite">
+
     <test thread-count="5" name="Test2">
  <parameter name="browser" value="chrome"></parameter>
  <parameter name="url" value="https://www.flipkart.com/"></parameter>
